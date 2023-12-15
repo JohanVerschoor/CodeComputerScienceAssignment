@@ -26,6 +26,7 @@ Then, the products are clustered using MSM. The LSH performance is evaluated by 
 So this project aims to improve the performance of MSMP, with the aim to find duplicates amongst multiple webshops in a computationally less demanding way.
 
 Structure of the code
+
 To discuss the structure of the code, I will group lines that are meant for specific purposes. In general, lines 1-258 are used to perform and evaluate Locality Sensitve Hashing (LSH). 
 Lines 260-601 are used to perform and evaluate MSMP and MSMSP.
 
@@ -69,6 +70,7 @@ MSM
 590-601: Print evaluation measures, namely Pair Quality, Pair Completeness and the F1 measure
 
 How to use the code
+
 The code can be used by importing the data file in line 10.
 In line 70-72 one of the three title model word definitions must be selected.
 In line 83, the amount of bootstraps can be set.
